@@ -29,7 +29,6 @@ module.exports = {
         include : SRC_DIR,
         loader : 'babel-loader',      
         query: {
-					  plugins: ['transform-runtime'],
             presets: ['es2015', 'react', 'stage-0']
        }
       }
