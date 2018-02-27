@@ -97,6 +97,9 @@
 		height: 35%;
 		padding: 10px 0 0 20px;
 	}
+	.contacts-left .data {
+		margin-bottom: 17px;
+	}
 	.contacts-right {
 		height: 65%;
 	}
