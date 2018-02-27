@@ -8,6 +8,12 @@
 		width: 100%;
 		overflow: scroll;
 	}
+	.about-left h2 {
+		font-size: 24px;
+	}
+	.about-left li {
+		font-size: 16px;
+	}
 	textarea {
 		width: 96%;
 	}

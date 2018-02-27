@@ -150,8 +150,11 @@ body {
   letter-spacing: 2px;
   margin-bottom: 30px;
 }
+.education-list {
+  margin: 10px;
+}
 .about-left li {
-  margin: 0 0 15px 20px;
+  margin: 0 5px 15px 20px;
   list-style: square;
   font-size: 18px;
   letter-spacing: 1px;
