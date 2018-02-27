@@ -141,6 +141,12 @@
 	.home-page-right {
 		padding: 0;
 	}
+	.home-page-photo {
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+		background-position: 42% 10%;
+	}
 	.name {
 		font-size: 24px;
 	}
@@ -153,6 +159,28 @@
 	.dev {
 		font-size: 12px;
 		letter-spacing: 4px;
+	}
+	.contacts-left .data {
+		margin-bottom: 10px;
+	}
+	.contacts-right form {
+		width: 85%;
+		margin: 5px auto;
+		border: 3px solid #313131;
+	}
+	.contacts-right input {
+		width: 98%;
+	}
+	.contacts-right textarea {
+		width: 94.5%;
+		height: 75%;
+	}
+	.input-text,
+	.input-email {
+		margin-bottom: 10px;
+	}
+	.textarea {
+		margin-bottom: 5px;
 	}
 }
 @media screen and (max-width: 300px) {

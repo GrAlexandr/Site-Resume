@@ -227,7 +227,7 @@ body {
   align-content: center;
   background-color: #4d4d4d;
 }
-.data {
+.contacts-left .data {
   margin-bottom: 40px;
 }
 .wrap-cont {
@@ -253,14 +253,14 @@ body {
   height: 100%;
   background-color: #3e3e3e;
 }
-form {
+.contacts-right form {
   width: 70%;
   height: 80%;
   padding: 10px;
   margin: 15px auto;
   border: 5px solid #313131;
 }
-input {
+.contacts-right input {
   width: 99%;
   height: 100%;
   border: none;
@@ -268,7 +268,7 @@ input {
   background-color: #313131;
   color: #ff8f16;
 }
-textarea {
+.contacts-right textarea {
   width: 97%;
   height: 90%;
   border: none;
