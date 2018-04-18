@@ -10,7 +10,7 @@ class HomePage extends Component {
          <div id="photo" className="home-page-photo" style={{ backgroundImage: `url(${ Photo })` }} />
         </div>
         <div className="home-page-right">
-          <div id="" className="home-page-name">
+          <div className="home-page-name">
             <div className="name">
               <span>Alexander</span>
             </div>

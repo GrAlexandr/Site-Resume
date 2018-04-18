@@ -201,3 +201,64 @@
 		letter-spacing: 4px;
 	}
 }
+@media screen and (max-height: 500px) {
+	.wrap {
+		height: auto;
+	}
+	.p-AG {
+		font-size: 14px;
+		padding: 5px 0 0 5px;
+	}
+	.p-about {
+		font-size: 8px;
+	}
+	.home-page-photo {
+		width: 200px;
+		height: 200px;
+		margin: 10px 0;
+		border-radius: 100px;
+		background-position: 42% 10%;
+	}
+	.name {
+		margin-top: 20px;
+		font-size: 22px;
+	}
+	.surname {
+		margin-bottom: 20px;
+		font-size: 40px;
+	}
+	.surname:first-letter {
+		font-size: 70px;
+	}
+	.dev {
+		margin-bottom: 20px;
+		font-size: 10px;
+		letter-spacing: 4px;
+	}
+	.skills {
+		margin: 10px auto;
+	}
+	.myBar {
+		height: 20px;
+		font-size: 12px;
+	}
+	.contacts-left,
+	.contacts-right {
+		height: auto;
+	}
+	.contacts-left .contacts-data-location {
+		margin-top: 20px;
+	}
+	.contacts-right form {
+		width: 85%;
+		margin: 10px 0;
+	}
+	.contacts-right .textarea {
+		height: 50%;
+		margin-right: 5px;
+	}
+	.footer a {
+		font-size: 1.7em;
+		margin: 5px 0;
+	}
+}

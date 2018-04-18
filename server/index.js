@@ -18,7 +18,6 @@ app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
 });
 
-// error handling
 app.use((req, res, next) => {
 	const err = new Error(`Not Found ${req.path}`);
 	err.status = 404;
