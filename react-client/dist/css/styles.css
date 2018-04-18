@@ -203,6 +203,9 @@ body {
 .about-right .projects a:hover {
   color: #ff8f16;
 }
+.about-right .projects .api {
+  margin-left: 10px;
+}
 .skills {
   justify-content: center;
   width: 80%;

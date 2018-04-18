@@ -66,11 +66,14 @@ class About extends Component {
 							<li><a href="https://gralexandr.github.io/todoDnD/" target="_blank">todo list drag and drop</a></li>
 							<li><a href="https://gralexandr.github.io/plugin_jQ/" target="_blank">plugin jQuery slider</a></li>
 							<li><a href="https://gralexandr.github.io/react_slider/build/" target="_blank">react slider</a></li>
-							<li><a href="https://gralexandr.github.io/API/exchange/" target="_blank">API Rate Bitcoin</a></li>
-							<li><a href="https://gralexandr.github.io/API/map/" target="_blank">API map</a></li>
-							<li><a href="https://gralexandr.github.io/API/wikipedia/" target="_blank">API wikipedia</a></li>
+							<li>API:
+								<a href="https://gralexandr.github.io/API/exchange/" target="_blank" className="api">Rate Bitcoin</a>
+								<a href="https://gralexandr.github.io/API/map/" target="_blank" className="api">Map</a>
+								<a href="https://gralexandr.github.io/API/wikipedia/" target="_blank" className="api">Wikipedia</a>
+							</li>
 							<li><a href="https://gralexandr.github.io/puzzle_ES6/" target="_blank">game puzzle</a></li>
 							<li><a href="https://contacts-geekhub.herokuapp.com/" target="_blank">contacts</a></li>
+							<li><a href="https://tank-ultimate-arena.herokuapp.com//" target="_blank">tank-ultimate-arena</a></li>
 						</ul>
 					</div>
 				</div>
