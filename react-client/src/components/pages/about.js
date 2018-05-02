@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
+import Certificate from '../../img/certificate.jpg';
 
 class About extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {};
+		this.state.certificate = Certificate;
+	}
 	render() {
 		return (
 			<div className="about">
@@ -41,6 +47,9 @@ class About extends Component {
 							</p>
 							<p>
 								The course is designed for people who want to learn Javascript from the inside. The course includes: language learning in detail, programming techniques and frameworks needed to do everything from a quick AJAX add-on to up-to-date large-scale applications.
+							</p>
+							<p className="certificate">
+								<a href={this.state.certificate} target="_blank" alt="Certificate GeekHub">Certificate GeekHub</a>
 							</p>
 						</li>
 					</ul>
