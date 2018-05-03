@@ -15,7 +15,7 @@ class HomePage extends Component {
               <span>Alexander</span>
             </div>
             <div className="surname">
-              <span>Grygorenko</span>
+              <span>Grigorenko</span>
             </div>
             <div className="dev">
               <span>Front-end developer</span>

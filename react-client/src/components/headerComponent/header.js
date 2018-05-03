@@ -7,7 +7,7 @@ class NavBar extends Component {
     return (
       <header className="header">
         <div className="about-me">
-          <p className="p-AG">Alexander Grygorenko</p>
+          <p className="p-AG">Alexander Grigorenko</p>
           <p className="p-about">Front-end developer</p>
         </div>
          <ul id="headerButtons">
