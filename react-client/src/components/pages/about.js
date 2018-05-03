@@ -49,7 +49,7 @@ class About extends Component {
 								The course is designed for people who want to learn Javascript from the inside. The course includes: language learning in detail, programming techniques and frameworks needed to do everything from a quick AJAX add-on to up-to-date large-scale applications.
 							</p>
 							<p className="certificate">
-								<a href={this.state.certificate} target="_blank" alt="Certificate GeekHub">Certificate GeekHub</a>
+								<a href={this.state.certificate} target="_blank">Certificate GeekHub</a>
 							</p>
 						</li>
 					</ul>
